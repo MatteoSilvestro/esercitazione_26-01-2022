@@ -38,8 +38,6 @@ public class Punto {
 	}
 	
 	public double distanza(Punto p){
-		x=getX();
-		y=getY();
 		x=x-p.x;
 		y=y-p.y;
 		double d = Math.sqrt((x*x)+(y*y));
